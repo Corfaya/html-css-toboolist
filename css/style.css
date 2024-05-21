@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 1200px;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 /* Header */
@@ -35,4 +35,32 @@ h1 {
 
 .v-align {
     vertical-align: middle;
+}
+
+/* Buttons */
+.p-btn {
+    padding: 20px 0 10px 50px;
+}
+
+.button {
+    padding: 7px 12px;
+    border-radius: 6px;
+    border: 1px solid;
+    font-weight: 600;
+}
+
+.blue-btn {
+    background-color: #47ADF1;
+    color: #fff;
+}
+
+.white-btn {
+    background-color: #fff;
+    color: #D6D9DD;
+    border-color: #D6D9DD;
+}
+
+/* List box */
+.p-box {
+    padding: 30px 70px;
 }
