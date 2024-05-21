@@ -63,4 +63,21 @@ h1 {
 /* List box */
 .p-box {
     padding: 30px 70px;
+    line-height: 30px;
+}
+
+.py-li {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.weight-li {
+    font-weight: 700;
+}
+
+.light-li {
+    font-weight: 500;
 }
