@@ -1,4 +1,4 @@
-/* Font + CSS-Reset*/
+/* Font + CSS-Reset */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -23,7 +23,6 @@ body {
 }
 
 /* Header */
-
 header {
     padding: 10px 0 10px 20px;
 }
@@ -50,6 +49,7 @@ h1 {
     border-radius: 6px;
     border: 1px solid;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .blue-btn {
@@ -63,22 +63,22 @@ h1 {
     border-color: #D6D9DD;
 }
 
+hr {
+    border: 1px solid #D6D9DD;
+}
+
 /* List box */
 .p-box {
     padding: 30px 60px;
     line-height: 25px;
 }
 
-.py-li {
-    padding-bottom: 20px;
-}
-
-.pb-li {
-    padding-bottom: 10px;
-}
-
 ul {
     list-style-type: none;
+}
+
+li {
+    margin: 20px 0
 }
 
 .weight-li {
@@ -94,10 +94,20 @@ ul {
 /* Marks */
 .mark {
     border: 2px solid;
-    width: 20px;
-    height: 20px;
+    width: 27px;
+    height: 27px;
     border-radius: 50%;
     margin: 5px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.check {
+    color: #64C0A9;
+}
+
+.cross {
+    color: #EC5E56;
 }
 
 /* Labels */
